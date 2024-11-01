@@ -1,46 +1,97 @@
-# Getting Started with Create React App
+# Dashboard de E-commerce - React + TypeScript
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este projeto é um **Dashboard de E-commerce** desenvolvido em **React** e **TypeScript**, utilizando **Tailwind CSS** para estilização. O projeto inclui páginas de **Login**, **Cadastro** e uma **Home** com carrossel de produtos em destaque. Notificações de sucesso e erro são exibidas com o `react-toastify`.
 
-## Available Scripts
+## Índice
 
-In the project directory, you can run:
+- [Visão Geral](#visão-geral)
+- [Funcionalidades](#funcionalidades)
+- [Tecnologias](#tecnologias)
+- [Instalação e Uso](#instalação-e-uso)
+- [Estrutura de Pastas](#estrutura-de-pastas)
+- [Contribuições](#contribuições)
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Visão Geral
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+O projeto visa simular uma interface de e-commerce com funcionalidades essenciais para navegação e visualização de produtos, autenticação de usuário e gerenciamento de conta. É projetado para ser totalmente **responsivo** e fácil de usar.
 
-### `npm test`
+![Dashboard de E-commerce](https://via.placeholder.com/800x400)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Funcionalidades
 
-### `npm run build`
+- **Login e Cadastro**: Formulários de login e cadastro com validações e notificações.
+- **Carrossel de Promoções**: Visualização de produtos em destaque.
+- **Dashboard Responsivo**: Layout adaptado para desktop, tablet e dispositivos móveis.
+- **Toast Notifications**: Notificações de sucesso e erro com `react-toastify`.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Tecnologias
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **React**: Biblioteca JavaScript para criação de interfaces de usuário.
+- **TypeScript**: Superset de JavaScript que adiciona tipagem estática.
+- **Tailwind CSS**: Framework de CSS para estilização rápida e responsiva.
+- **React Toastify**: Biblioteca para exibir notificações.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Instalação e Uso
 
-### `npm run eject`
+1. **Clone o repositório**
+   ```bash
+   git clone https://github.com/seu-usuario/seu-repositorio.git
+   cd seu-repositorio
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+2. **Instale as dependências**
+   ```bash
+   npm install
+   ```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. **Inicie o projeto**
+   ```bash
+   npm start
+   ```
+   A aplicação estará disponível em `http://localhost:3000`.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Estrutura de Pastas
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```plaintext
+├── public
+├── src
+│   ├── components
+│   │   ├── Header.tsx
+│   │   ├── Footer.tsx
+│   │   ├── SwiperSlider.tsx
+│   │   └── ProductCard.tsx
+│   ├── pages
+│   │   ├── Login.tsx
+│   │   ├── Register.tsx
+│   │   └── Dashboard.tsx
+│   ├── App.tsx
+│   └── index.tsx
+├── .gitignore
+├── package.json
+└── README.md
+```
 
-## Learn More
+## Contribuições
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Para contribuir, siga os passos abaixo:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. **Fork** este repositório.
+2. Crie uma **branch** com sua feature:
+   ```bash
+   git checkout -b feature/minha-feature
+   ```
+3. **Commit** suas alterações:
+   ```bash
+   git commit -m "Add minha feature"
+   ```
+4. **Push** para a branch:
+   ```bash
+   git push origin feature/minha-feature
+   ```
+5. Abra um **Pull Request** para revisão.
+
+
+
+Esperamos que este projeto seja útil para você, seja para estudos ou como base para desenvolvimentos futuros. Agradecemos seu interesse! 😊
