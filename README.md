@@ -18,6 +18,8 @@ Este projeto é um **Dashboard de E-commerce** desenvolvido em **React** e **Typ
 O projeto visa simular uma interface de e-commerce com funcionalidades essenciais para navegação e visualização de produtos, autenticação de usuário e gerenciamento de conta. É projetado para ser totalmente **responsivo** e fácil de usar.
 
 ![Dashboard de E-commerce](https://loja-de-celular-tau.vercel.app/)
+![Captura de tela 2024-11-01 124140](https://github.com/user-attachments/assets/2df8608e-1001-4190-a85d-2dd6097ec5d8)
+
 
 ## Funcionalidades
 
