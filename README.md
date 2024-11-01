@@ -42,8 +42,8 @@ O projeto visa simular uma interface de e-commerce com funcionalidades essenciai
 
 1. **Clone o repositório**
    ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
-   cd seu-repositorio
+   git clone https://github.com/13Junio-Innovating/loja_de_celular.git
+   cd loja_de_celular
    ```
 
 2. **Instale as dependências**
