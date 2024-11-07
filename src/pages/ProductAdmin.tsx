@@ -90,7 +90,7 @@ const AdminPanel: React.FC = () => {
   return (
     <div className="max-w-6xl mx-auto p-8 bg-gray-100">
       <div className="bg-white p-6 rounded-lg shadow-md mb-8">
-        <h1 className="text-2xl font-bold">Painel Administrativo - AP Manutenções</h1>
+        <h1 className="text-2xl font-bold">Painel Administrativo - AP Celulares</h1>
       </div>
 
       <div className="bg-white p-6 rounded-lg shadow-md mb-8">
